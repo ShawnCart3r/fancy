@@ -1,0 +1,38 @@
+//color
+
+:root{
+    --primary-color: #f60f20;
+    --secondary-color: #1b206e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    box-sizing: border-box;
+    font-size: 67.52%;
+    color: #111;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p{
+    margin: 20px 0 10px;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+}

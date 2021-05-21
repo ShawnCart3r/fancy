@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    margin-top: 60px;
+section.home{
+    flex-direction: row;
+    margin-top: 0;
+}
+}
+
+// button
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: 0;
+    .btn:hover{
+        transform: scale(.098);
+    }
+}
+
+.toggle{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
